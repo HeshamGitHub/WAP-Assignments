@@ -1,0 +1,20 @@
+body {
+    background: #595647;
+    color: white;
+}
+.profile{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile img{
+
+    max-width: 100%;
+}
+
+h2{
+    font-size: 30px;
+    color: turquoise;
+}
