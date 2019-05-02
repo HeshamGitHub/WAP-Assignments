@@ -2,11 +2,22 @@ body {
     background: #595647;
     color: white;
 }
+img {
+    max-width: 100%;
+}
 .profile{
     height: 200px;
     width: 200px;
     border-radius: 50%;
     overflow: hidden;
+}
+
+.intro{
+    border-bottom: 2px;
+}
+
+strong{
+    color: yellow;
 }
 
 .profile img{
@@ -17,4 +28,38 @@ body {
 h2{
     font-size: 30px;
     color: turquoise;
+}
+
+h3{
+    font-size: 20px;
+    color: turquoise;
+}
+
+label{
+    font-style: italic;
+
+}
+
+.listFormat li{
+    width : 200px;
+    hight : 200px;
+    float: left;
+    background: gray;
+    border: 2px;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+}
+
+.listFormat2 li{
+    width : 200px;
+    hight : 200px;
+    float: left;
+    background: gray;
+    border: 2px;
+    list-style: none;
+}
+
+.divRow {
+    width: 100%;
 }
