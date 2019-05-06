@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad09c135-1725-4cd5-bf80-25637eb0f9f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HomeWork1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/bannerbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/critic.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fresh.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/movie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/overview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/rbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/recipe.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/rotten.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/rottenbig.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/tmnt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/w3c-css.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/w3c-html.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/w3c-xhtml.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04-1/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04-1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04-2/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04-2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04-3/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04-3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AboutMe/AboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutMe/AboutMe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/wapcss.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/wapcss.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork3/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,17 +27,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AboutMe/AboutMe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="43" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="43" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="187">
+              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -88,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HomeWork3/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -147,11 +119,11 @@
         <option value="$PROJECT_DIR$/lab4/index.html" />
         <option value="$PROJECT_DIR$/assets/wapcss.css" />
         <option value="$PROJECT_DIR$/AboutMe/AboutMe.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/lab1/index.html" />
         <option value="$PROJECT_DIR$/HomeWork1/index.html" />
         <option value="$PROJECT_DIR$/HomeWork2/index.html" />
         <option value="$PROJECT_DIR$/HomeWork3/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -237,12 +209,12 @@
       <workItem from="1556642466301" duration="239000" />
       <workItem from="1556642725346" duration="11710000" />
       <workItem from="1556824052416" duration="2926000" />
-      <workItem from="1557109807464" duration="2731000" />
+      <workItem from="1557109807464" duration="3186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18497000" />
+    <option name="totallyTimeSpent" value="18952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="702" extended-state="6" />
@@ -285,24 +257,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/recipe.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AboutMe/AboutMe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -330,6 +288,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AboutMe/AboutMe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
         </state>
       </provider>
     </entry>
