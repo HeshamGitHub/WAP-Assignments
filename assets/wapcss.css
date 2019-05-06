@@ -39,27 +39,25 @@ label{
     font-style: italic;
 
 }
+.listFormat{
+    float: left;
+    width: 100%;
+    display: inline-block;
+}
 
 .listFormat li{
     width : 200px;
     hight : 200px;
-    float: left;
     background: gray;
     border: 2px;
     padding: 10px;
     margin: 10px;
     list-style: none;
+    display: inline-block;
 }
 
-.listFormat2 li{
-    width : 200px;
-    hight : 200px;
-    float: left;
-    background: gray;
-    border: 2px;
-    list-style: none;
-}
 
 .divRow {
     width: 100%;
+    display: inline-block;
 }

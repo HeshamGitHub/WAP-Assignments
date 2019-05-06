@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign Up form</title>
+    <meta charset="utf-8" />
+    <link href="assets/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="form-contaienr">
+        <form action="">
+            <fieldset>
+                <legend>New User Signup:</legend>
+                <div class="input-container">
+                    <div class="input-label">
+                        <label for="name">Name:</label>
+                    </div>
+                    <input type="text" name="name">
+                </div>
+                <div class="input-container">
+                    <div class="input-label">
+                        <label for="Email">Email:</label>
+                    </div>
+                    <input type="email">
+                </div>
+                <div class="input-container">
+                    <div class="input-label">
+                        <label for="Email">Gender:</label>
+                    </div>
+                    <label for="">
+                        <input type="radio" name="gender" value="Male"> Male
+                    </label>
+                    <label for="">
+                        <input type="radio" name="gender" value="Female"> Female
+                    </label>
+                </div>
+                <div class="input-container">
+                    <div class="input-label">
+                        <label for="">Age:</label>
+                    </div>
+                    <input type="text">
+                </div>
+                <div class="input-container">
+                    <div class="input-label">
+                        <label for="">Personality Type:</label>
+                    </div>
+                    <input type="text">
+                    (<a class="warning-message" href="#">Don't know your type?</a>)
+                </div>
+                <div class="input-container">
+                    <div class="input-label">
+                        <label for="">Favorite OS:</label>
+                    </div>
+                    <select name="os" id="">
+                        <option value="">Windows</option>
+                        <option value="">Mac</option>
+                        <option value="">Linux</option>
+                    </select>
+                </div>
+               
+                <div class="input-container">
+                    <div class="input-label">
+                        <label for="">Seeking age:</label>
+                    </div>
+                    <input type="number" placeholder="min" class="input--sm"> to <input type="number" placeholder="max" class="input--sm">
+                </div>
+            </fieldset>
+            <button type="submit" class="button">Signup</button>
+        </form>
+    </div>
+</body>
+
+</html>

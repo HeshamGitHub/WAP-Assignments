@@ -1,0 +1,60 @@
+.form-contaienr {
+    max-width: 500px;
+    margin: 31px auto;
+    background: #e0e0ff;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px #000;
+}
+
+fieldset {
+    border: 0;
+}
+
+legend {
+    position: relative;
+    top: -26px;
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 10px;
+}
+
+
+.input-label {
+    width: 145px;
+    font-weight: bold;
+    float: left;
+    padding-top: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+select {
+    height: 30px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 0 12px;
+}
+
+.input-container {
+    padding: 10px 0;
+}
+
+
+.input--sm {
+    width: 110px;
+}
+
+.warning-message {
+    font-size: 14px;
+    margin: 0;
+    color: green;
+    text-decoration: none;
+}
+
+.button {
+    padding: 10px;
+    background: #ffaaaa;
+}

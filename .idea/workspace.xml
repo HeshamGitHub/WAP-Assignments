@@ -2,9 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad09c135-1725-4cd5-bf80-25637eb0f9f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HomeWork1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bannerbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/critic.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fresh.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/movie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/rbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/recipe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/rotten.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/rottenbig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/tmnt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/w3c-css.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/w3c-html.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/w3c-xhtml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab04-1/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab04-1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab04-2/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab04-2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab04-3/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab04-3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AboutMe/AboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutMe/AboutMe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/wapcss.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/wapcss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork3/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,21 +46,72 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/wapcss.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="62" column="7" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="7" />
+            <state relative-caret-position="488">
+              <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AboutMe/AboutMe.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="43" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HomeWork1/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HomeWork2/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AboutMe/AboutMe.html">
+        <entry file="file://$PROJECT_DIR$/HomeWork3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-              <folding>
-                <element signature="n#div#1;n#html#0;n#!!top" />
-                <element signature="n#dive#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab04-1/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab04-3/assets/style.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/recipe.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -49,19 +126,32 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>=&quot;assets</find>
+      <find>Home</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>=&quot;..assets</replace>
+      <replace>=&quot;../assets</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lab1/index.html" />
         <option value="$PROJECT_DIR$/lab2/index.html" />
         <option value="$PROJECT_DIR$/lab3/index.html" />
         <option value="$PROJECT_DIR$/lab4/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/wapcss.css" />
         <option value="$PROJECT_DIR$/AboutMe/AboutMe.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/lab1/index.html" />
+        <option value="$PROJECT_DIR$/HomeWork1/index.html" />
+        <option value="$PROJECT_DIR$/HomeWork2/index.html" />
+        <option value="$PROJECT_DIR$/HomeWork3/index.html" />
       </list>
     </option>
   </component>
@@ -99,12 +189,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/localfiles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HomeWork3" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MUM Main Folder\MY MUM Courses Artifacts\WAP\WAP Assignments\WAP-Assignments" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MUM Main Folder\MY MUM Courses Artifacts\WAP\WAP Assignments\WAP-Assignments\HomeWork3" />
+      <recent name="D:\MUM Main Folder\MY MUM Courses Artifacts\WAP\WAP Assignments\WAP-Assignments\assets" />
       <recent name="C:\Users\987171\WebstormProjects\WAP-Assignments\localfiles" />
       <recent name="C:\Users\987171\WebstormProjects\WAP-Assignments" />
       <recent name="C:\Users\987171\WebstormProjects\WAP-Assignments\lab2" />
@@ -136,14 +237,15 @@
       <workItem from="1556642466301" duration="239000" />
       <workItem from="1556642725346" duration="11710000" />
       <workItem from="1556824052416" duration="2926000" />
+      <workItem from="1557109807464" duration="2731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15766000" />
+    <option name="totallyTimeSpent" value="18497000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="702" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24330357" />
@@ -169,13 +271,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lab3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab4/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -183,42 +278,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab2/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/wapcss.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="488">
+          <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="374">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/wapcss.css">
+    <entry file="file://$PROJECT_DIR$/assets/recipe.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="62" column="7" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="7" />
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AboutMe/AboutMe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="n#div#1;n#html#0;n#!!top" />
-            <element signature="n#dive#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab04-3/assets/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab04-1/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
