@@ -1,0 +1,22 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>Example TLD with Body</short-name>
+
+    <tag>
+        <description>Generates a label</description>
+        <name>Head</name>
+        <tag-class>com.demo.medhatisaac.laps.customtag.Label</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>theColor</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>words</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>
