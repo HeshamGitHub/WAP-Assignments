@@ -1,0 +1,193 @@
+<html class="gr__mumstudents_org">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title> Servelt Intro Quiz 1</title>
+    <style>
+        span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+<h2> Answers for Servelt Quiz 2</h2>
+<ol>
+
+    <li> <span>Can post requests be bookmarked? What are the problems?</span>
+        <div>
+            No, we can't bookmark the post request because clicking the bookmark will always fire GET request.<br>
+            Post request is fired only when submitting the HTML form. We can program to bookmark POST request but it is
+            not done due to sensitive reason of data. Post request is not idempotent and does not gurantee the same
+            result everytime we invoke it.<br>
+            When we bookmark a URL we're only bookmarking the URL, not the request
+            body.<br>
+            E.g. if we fill in a form on webpage that is then passed to the webserver as a POST request, and
+            we then bookmark the response page in our browser, the browser will make note of only the URL, but not
+            the form body.<br>
+        </div>
+
+    </li><br>
+
+
+    <li> <span>What is the purpose of request dispatching?</span>
+        <div>
+            The purpose of request dispatcher is to forward a client's request to resource of include the resource
+            in response back to the client. A resource can be another servlet, or and HEML file, or a JSP.<br>
+            forward (to another servlet or jsp in same website)<br>
+            RequestDispatcher view = request.getRequestDispatcher("result.jsp");<br>
+            view.forward(request, response);<br>
+            redirect response.sendRedirect("http://www.cs.mum.edu"); //to another site<br
+                or<br>
+            response.sendRedirect("result.jsp"); //within same site
+        </div>
+
+    </li> <br>
+
+
+    <li> <span> What is the difference between redirect and request dispatch? </span>
+        <div>
+            Forward<br>
+            passes the request to another resource on the server
+            request and response objects passed to destination servlet.
+            Browser is completely unaware of servlet forward and hence the URL in browser address bar will remain
+            unchanged<br>
+
+            Redirect<br>
+            server sends HTTP status code 3xx to client along with the redirect URL (usually 302 temporary
+            redirect)
+            client then sends a new request to the URL
+            extra round trip
+            address bar will change to new URL
+            only http message sent, request and response objects cannot be sent<br>
+        </div>
+
+    </li><br>
+
+
+    <li> <span> What is an attribute ? </span>
+        <div>
+            Attributes are objects that are attached to various scopes and can be modified, retrieved or removed.
+            Attributes can be read, created, updated and deleted by the web container as well as our application
+            code. We have methods in the Servlet API to add, modify, retrieve and remove attributes. When an object
+            is added to an attribute in any scope, it is called binding as the object is bound into a scoped
+            attribute with a given name. Attribute has name value pair. Where value has an object and name is
+            String.
+            The attribute manipulation methods for request, session and application scopes are identical and differ
+            only on the interfaces they are defined.<br>
+
+            They are:<br>
+            getAttribute(String)<br>
+            setAttribute(String, Object)<br>
+            removeAttribute(String)<br>
+            getAttributeNames()<br>
+        </div>
+
+    </li><br>
+
+
+    <li> <span> What is the difference between attributes and parameters? </span>
+        <div>
+            The difference between attribute and parameters are:-<br>
+            Parameters are read only, attributes are read/write objects.<br>
+            Parameters are String objects, attributes can be objects of any type.<br>
+        </div>
+
+    </li><br>
+
+
+    <li> <span> What are dangers of using attributes? </span>
+        <div>
+            The dangers of using attributes are:-<br>
+
+            1.If any of the attribute manipulation functions are invoked in session scope when the session is
+            invalid, IllegalStateException will be thrown.<br>
+            2.Null is returned if no attribute of the given name exist.<br>
+            3.If we call getAttributeNames() when no attributes are there, an empty enumeration will be returned.
+            However, since some attributes will be always supplied by the web container during the application
+            context, the enumeration returned by getAttributeNames() will never be empty in the application scope.<br>
+            4.There is no guarantee of the order of the attributes within the enumeration returned by the
+            getAttributeNames() method.<br>
+            5.Not thread safe and is like nuclear power.<br>
+        </div>
+
+    </li><br>
+
+
+    <li> <span> What does it mean to say that http is stateless? Give an example of a stateful protocol </span>
+        <div>
+            A stateless protocol does not require the server to retain information or status about each user for
+            the duration of multiple requests
+            FTP and TCP are stateful protocols.
+        </div>
+
+    </li><br>
+
+
+    <li> <span> Give 5 different methods for maintaining state information (count each attribute scope as one
+                method). </span>
+        <div>
+            1.request scope: destroyed when servlet finishes processing request
+            request.setAttribute("requestState", "bob");<br>
+            2.session scope: destroyed when user closes browser
+            request.getSession().setAttribute("sessionState", "bob");<br>
+            3.application scope destroyed when the container stopped.
+            this.getServletContext().setAttribute("applicationState", "bob");<br>
+            4.Cookies saved on browser, either temporary (deleted when the browser closes) or permanent
+            Cookie c = new Cookie("cookiePermanentState", "bob");
+            c.setMaxAge(3600);
+            response.addCookie(c);<br>
+            5.Hidden fields on a form
+            input type='hidden' name='hiddenState' value='bob'
+        </div>
+
+    </li><br>
+
+
+    <li> <span> How long does a session last? </span>
+        <div>
+            Onclient side<br>
+            Browser discards all "temporary" cookies when it closes<br>
+            On server Side<br>
+            3 ways for container to remove sessions<br>
+            session timeout in the DD<br>
+            session.setMaxInactiveInterval(20*60); //seconds<br>
+            session.invalidate(); //immediate<br>
+        </div>
+
+    </li><br>
+
+
+    <li> <span> What is a cookie, and how long does a cookie last? </span>
+        <div>
+            A cookie is a small piece of data sent by the server and stored in the browser. the browser whereas
+            permanent cookies last till its max set age.
+        </div>
+
+    </li><br>
+
+
+
+    <li> <span> What is the purpose of URL rewriting? </span>
+        <div>
+            URl rewriting is a way to support anonymous session tracking since using URL rewriting dynamically
+            modifies the local URL to contain some extra information.
+        </div>
+    </li><br>
+
+
+    <li> <span> Why does the request attribute report 'null' for the maintaining state demo? </span>
+        <div>
+            The request attribute reports 'null' for the maintaining state demo because local attribute
+            requestState is not transferred to the post.
+        </div>
+
+    </li><br>
+
+
+</ol>
+
+
+</body>
+
+</html>
