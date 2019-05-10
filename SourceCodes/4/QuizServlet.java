@@ -1,6 +1,6 @@
-package com.demo.medhatisaac.laps.quiz;
+package com.demo.hesham.laps.quiz;
 
-import com.demo.medhatisaac.laps.quiz.pojo.Quiz;
+import com.demo.hesham.laps.quiz.pojo.Quiz;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

@@ -1,4 +1,4 @@
-<%@ page import="com.demo.medhatisaac.laps.quiz.pojo.Quiz" %>
+<%@ page import="com.demo.hesham.laps.quiz.pojo.Quiz" %>
 <%@ page language="java" contentType="words/html; charset=US-ASCII"
          pageEncoding="US-ASCII" import="java.util.*" %>
 <html>

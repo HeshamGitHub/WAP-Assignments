@@ -6,7 +6,7 @@
     <tag>
         <description>Generates a label</description>
         <name>Head</name>
-        <tag-class>com.demo.medhatisaac.laps.customtag.Label</tag-class>
+        <tag-class>com.demo.hesham.laps.customtag.Label</tag-class>
         <body-content>empty</body-content>
         <attribute>
             <name>theColor</name>

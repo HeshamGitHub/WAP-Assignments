@@ -1,4 +1,4 @@
-package com.demo.medhatisaac.laps.quiz.pojo;
+package com.demo.hesham.laps.quiz.pojo;
 
 public class Quiz {
 
