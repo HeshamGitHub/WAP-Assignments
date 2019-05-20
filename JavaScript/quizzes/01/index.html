@@ -1,0 +1,80 @@
+<html class="gr__mumstudents_org">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title> Javascript Exercises </title>
+    <style>
+        span {
+            font-weight: bold;
+        }
+        div{
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h2> Answers for Javascript Exercises</h2>
+    <ol>
+
+        <li> <span> 
+                What is the difference between the following 2 statements?<br>
+                setTimeout(booyah , 2000);<br>
+                setTimeout(booyah(), 2000);<br>
+             </span>
+            <div>
+                setTimeout(booyah, 2000) :  It waits for 2000 ms before loading the function.<br>
+                setTimeout(booyah(), 2000) :  It calls the function immediately, rather than waiting for the specified time<br>
+            </div>
+
+        </li><br>
+
+
+        <li> <span> 
+            What do the following 2 alerts display (answer without running the code)<br>
+            <img src="functionAlert.JPG" alt="functionAlertCode"/>
+            </span>
+            <div>
+                it alerts 6 twice
+            </div>
+
+        </li> <br>
+
+
+        <li> <span> Write functions booyah1 and booyah2 so that in both cases below, an alert box comes up after 2 seconds that 
+                says "BOOYAH!"</span>
+            <div>
+                    <img src="twoFunctions.JPG" alt="twoFunctionsCode"/>
+            </div>
+
+        </li><br>
+
+
+        <li> <span> What is "Unobtrusive Javascript"? What is the practical application of Unobtrusive Javascript (and the reasons 
+                for using it)?  </span>
+            <div>
+                    The method of separating Behavior from Content and Presentation in web designing then
+                    such Javascript is called unobtrusive Javascript.<br>
+                    The practical application of using Unobtrusive Javascript is:<br>
+                    <ol>
+                        <li> Usability: An unobtrusive DOM script does not draw the attention of the user -
+                            visitors use it without thinking about it.</li>
+                        <li>Graceful degradation: Unobtrusive DOM scripts never generate error messages, in
+                            any browser, even when they fail. If features cannot be presented properly, they
+                            silently disappear.</li>
+                        <li>Accessibility: If any script fails, the page still delivers its core functions and
+                            information via the markup, stylesheets and/or server-side scripting.</li>
+                        <li>
+                            Separation: For the benefit of other and future web developers, all JavaScript code
+                            is maintained separately, without impacting other files of script, markup or code.
+                        </li>
+                    </ol>
+            </div>
+
+        </li><br>        
+    </ol>
+
+
+</body>
+
+</html>

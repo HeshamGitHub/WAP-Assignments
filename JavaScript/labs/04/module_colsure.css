@@ -1,0 +1,18 @@
+fieldset{
+    border: 5px solid black;
+    margin-top: 10px;
+}
+
+label{
+    margin-top: 8px;
+}
+
+.inputTxt{
+    margin-bottom: 8px;
+}
+
+.validate {
+    right: 5px;
+    position: fixed;
+    bottom: 0;
+}

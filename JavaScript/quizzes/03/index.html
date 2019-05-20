@@ -1,0 +1,150 @@
+<html class="gr__mumstudents_org">
+
+<head lang="en-us">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title> JavaScript </title>
+    <style>
+        span {
+        font-weight: bold;
+    }
+    li {
+        margin-top: 20px;
+    }
+    </style>
+</head>
+
+<body>  
+    <ol>
+        <li>
+            <span> Determine what this Javascript code will print out (without running it): </span>
+            <div>
+                <img src="q1.png" />
+            </div>
+        </li>
+        <li>
+            <span> Define local and global scope in java script?</span>
+            <div style="color: green;">
+                If a variable is defined outside the function and thus can be accessed globally by the scope, <br> this is known as global scope. <br>
+                If a variable is defined inside the function and thus can only be accessed locally by the <br>
+                scope, this is known as local scope.
+            </div>
+        </li>
+        <li>
+            <span> Consider the following structure of JavaScript code: </span>
+            <div>
+                <img src="q3.png" />
+            </div>
+            <ol type="a">
+                <li> Do statements in Scope A have access to variables defined in Scope B and C? <span style="color: red">No</span> </li>
+                <li> Do statements in Scope B have access to variables defined in Scope A? <span style="color: green"> Yes </span></li>
+                <li> Do statements in Scope B have access to variables defined in Scope C? <span style="color: red"> No </span></li>
+                <li> Do statements in Scope C have access to variables defined in Scope A? <span style="color: green">Yes</span> </li>
+                <li> Do statements in Scope C have access to variables defined in Scope B? <span style="color: green">Yes </span></li>
+            </ol>
+        </li>
+        <li>
+            <span> What will be printed by the following (answer without running) </span>
+            <div>
+                <img src="q4.png" />
+            </div>
+        </li>
+        <li>
+            <span> What will the alert print out (Remember the hoisting) </span>
+            <div>
+                <img src="q5.png" />
+            </div>
+        </li>
+        <li>
+            <span> Consider the following definition of an add() function to increment a counter variable: </span>
+            <div>
+                <img src="q6.png" />
+            </div> <br>
+            Modify the above module to define a count object with two methods: add() and reset( ). <br>
+            The count.add( ) method adds one to the counter (as above). The count.reset( ) method <br>
+            sets the counter to 0
+            <br> <br>
+            <div>
+                <img src="q6_2.png" />
+            </div>
+        </li>
+        <li>
+            <span>In the definition of add( ) shown in question 6, identify the "free" variable. In the context
+                of a function closure, what is a "free" variable?
+            </span>
+            <div style="color: green;">
+                "counter" is a free variable. <br>
+                In the term of a function closure, a free variable is a closure variable that can be used all <br>over the closure itself but is not part of a global namespace.
+            </div>
+        </li>
+        <li>
+            <span> The add( ) function defined in question 6 always adds 1 to the counter each time it is <br>
+                called. Write a definition of a function make_adder(inc), whose return value is an add <br>
+                function with increment value inc (instead of 1). Here is an example of using this <br>
+                function:</span>
+            <pre>
+add5 = make_adder(5);
+add5( ); add5( ); add5( ); // final counter value is 15
+add7 = make_adder(7);
+add7( ); add7( ); add7( ); // final counter value is 21
+
+            </pre>
+            <div>
+                <img src="q6_2.png" />
+            </div>
+        </li>
+        <li>
+            <span>Suppose you are given a file of JavaScript code containing a list of many function and <br>
+                variable declarations. All of these function and variable names will be added to the <br>
+                Global JavaScript namespace. What simple modification to the JavaScript file can remove <br>
+                all the names from the Global namespace?
+            </span>
+            <div style="color: green;">
+                The simplest way is to wrap the JavaScript code in a closure and manually expose only those <br> variables we require globally to the global scope.
+            </div>
+        </li>
+        <li> <span> Using the Revealing Module Pattern, write a JavaScript definition of a Module that
+                creates an Employee Object with the following fields and methods:</span>
+            <pre>
+Private Field: name
+Private Field: age
+Private Field: salary
+Public Method: setAge(newAge)
+Public Method: setSalary(newSalary)
+Public Method: setName(newName)
+Private Method: getAge( )
+Private Method: getSalary( )
+Private Method: getName( )
+Public Method: increaseSalary(percentage) // uses private getSalary( )
+Public Method: incrementAge( ) // uses private getAge( )
+
+</pre>
+            <div>
+                <img src="q10.png" />
+            </div>
+        </li>
+        <li>
+            <span> Rewrite your answer to Question 10 using the Anonymous Object Literal Return Pattern </span>
+            <div>
+                <img src="q11.png" />
+            </div>
+        </li>
+        <li>
+            <span> Rewrite your answer to Question 10 using the Stacked Locally Scoped Object Literal
+                Pattern.
+            </span>
+            <div>
+                <img src="q12.png" />
+            </div>
+        </li>
+        <li>
+            <span> Write a few JavaScript instructions to extend the Module of Question 10 to have a public
+                address field and public methods setAddress(newAddress) and getAddress( )
+            </span>
+            <div>
+                <img src="q13.png" />
+            </div>
+        </li>
+    </ol>
+</body>
+
+</html>

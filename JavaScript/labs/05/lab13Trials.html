@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Scopes Trials</title>
+    <script src="lab13Trials.js"></script>
+    <script>
+        var x = 1;
+        function f() {
+            var y = 2;
+            var summ = function () {
+                var z = 3;
+                console.log(x + y + z);
+            };
+            y = 10; return summ;
+        }
+        var g = f();
+        g();
+    </script>
+</head>
+
+<body id="page">
+    <button onclick="test4()"> Test4 </button><br>
+    <button onclick="test5()"> Test5 </button><br>
+    <button onclick="test6()"> Test6 </button><br>
+    <button onclick="test7()"> Test7 </button><br>
+</body>
+
+</html>

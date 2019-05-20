@@ -1,0 +1,86 @@
+<html class="gr__mumstudents_org">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title> JQuery Quiz</title>
+    <style>
+    span {
+        font-weight: bold;
+    }
+
+    div {
+        color: blue;
+    }
+    </style>
+</head>
+
+<body>
+    <h2> JQuery Quiz III</h2>
+    <ol>
+        <li>
+            <span>
+                Find the text in the first paragraph (stripping out the html), then set the html
+                of the last paragraph to show it is just text (the red bold is gone).<br>
+                <img src="Q1.JPG" />
+            </span>
+            <div>
+                <code>
+                    <pre>
+    var str = $("p").first().text();
+    $("p").last().text(str);
+    </pre> OR
+                    <pre>
+    $block= $("p").first().detach();
+    $("p").last().after($block);
+    </pre>
+                </code>
+            </div>
+        </li><br>
+        <li>
+            <span>
+                Write jQuery code to create a red background for the level-2 list items<br>
+                <img src="Q2.JPG" />
+            </span>
+            <div>
+                $("ul.level-2").children().css("background-color", "red");
+            </div>
+        </li> <br>
+        <li>
+            <span>
+                Write jQuery code to select the element that comes immediately before item three and change its
+                background color to blue.<br>
+                <img src="Q3.JPG" />
+            </span>
+            <div>
+                $("#third-item").prev().css("background-color", "blue");
+            </div>
+        </li><br>
+        <li>
+            <span>
+                Let us one additional requirement for the "Go Vegetarian" button of the
+                Webville Eatery Menu described in Chapter 4 of Head First jQuery: "Turkey"
+                in the ingredient list of any entree is replaced by "Mashed Potatoes" in the
+                vegetarian version. You may assume there is a class "turkey" that identifies
+                these items in the list. Describe the changes to the Javascript (jQuery) code to
+                implement this new requirement.<br>
+            </span>
+            <div>
+                $(".turkey").replaceWith("&ltli class='mashed_potatoes'&gt&ltem&gtMashed Potatoes&lt/em&gt&lt/li&gt");
+            </div>
+        </li><br>
+        <li>
+            <span>
+                Write Javascript (jQuery) code to change the color of the parent and
+                grandparent list items of the span of text ("some text") in the following to
+                green<br>
+                <img src="Q5.JPG" />
+            </span>
+            <div>
+                $("span").parent().css("color", "green");
+                $("span").parent().parent().css("color", "green");
+            </div>
+        </li><br>
+    </ol>
+</body>
+
+</html>

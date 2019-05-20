@@ -1,0 +1,66 @@
+<html class="gr__mumstudents_org">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title> JQuery Quiz</title>
+    <style>
+        span {
+            font-weight: bold;
+        }
+
+        div {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h2> JQuery Quiz II</h2>
+    <ol>
+
+        <li>
+            <span>
+                Which, if any, of the following 3 code fragments are equivalent? Explain why they are different, if
+                they are. Explain why they can have different parameters and be equivalent, if they are equivalent.<br>
+                <img src="Q1.JPG" />
+            </span>
+            <div>
+                All three code fragment changes "li" color to yellow <br>
+                Code fragment 1 : takes argument index and element. It is changing color of each element to yellow<br>
+                Code fragment 2 : changing color based on jquery contructor i.e. $(this). It doesn't have index but can obtain position from the jquery constructer.<br>
+                Code fragement 3 : it uses jquery constructer i.e. $(this). We can carry out other operation based on index.<br>
+            </div>
+        </li><br>
+
+
+        <li>
+            <span>
+                Write a jQuery expression to find all divs on a page that include an unordered list in them, and make their text color be blue.<br>
+                <img src="Q2.JPG" />
+            </span>
+            <div>
+                $("div:has(ul)").css("color", "blue");
+                
+            </div>
+
+        </li> <br>
+
+
+        <li>
+            <span>
+                Write jQuery code to append the following div element (and all of its contents) dynamically to the body element<br>
+                <img src="Q3.JPG" />
+            </span>
+
+            <div>
+                if Div was an elemt we can get it with children and add it like this : <code> $("body").append($("div").children()); </code><br>
+                other wise if it was just a simple apped it will done 0like this : <code>$("body").append("&ltdiv&gt&lth1&gtJQuery Core&lt/h1&gt&lt/div&gt") </code>
+            </div>
+
+        </li><br>
+    </ol>
+
+
+</body>
+
+</html>
