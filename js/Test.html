@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+
+//    // console.log("window level : ");
+//    // console.log(this);
+//    //
+//    // function calcTip() {
+//    //     console.log("Function level : ");
+//    //     console.log(this);
+//    // }
+//    //
+//    // var l= function functionParent() {
+//    //       let c=0;
+//    //     console.log("Closure body");
+//    //     console.log(this);
+//    //     calcTip();
+//    //       return function() {
+//    //         c++;
+//    //         console.log(c);
+//    //         console.log("Closure part 2");
+//    //         console.log(this);
+//    //     }
+//    // }
+//    //
+//    // var obj=
+//    //     {
+//    //     f1: function() {
+//    //                 "use strict";
+//    //                 var x = calcTip;
+//    //                 console.log("object nested nested function ");
+//    //                 console.log(this);
+//    //                  x();
+//    //                 return function() {
+//    //                     console.log(this)
+//    //                 }
+//    //
+//    //             },
+//    //
+//    //
+//    //     f2: function () {
+//    //         console.log("object nested function :");
+//    //         console.log(this);
+//    //     }
+//    // }
+//    //
+//    //
+//    // calcTip();
+//    // var firstCall=new l();
+//    // firstCall();
+//    // obj.f1();
+//    // obj.f2();
+//    //
+//    // const funcs = [];
+//    // for (let i = 0; i < 5; i++) {
+//    //     funcs[i] = function() {
+//    //         return i;
+//    //     };
+//    // }
+//    // console.log(funcs[0]());
+//    // console.log(funcs[1]());
+//    // console.log(funcs[2]());
+//    // console.log(funcs[3]());
+//    // console.log(funcs[4]());
+//    //
+//    // nnn=10
+//    //
+//    // console.log(nnn);
+//    //
+//
+//    var protoCircle = {
+//        radius: 1,
+//        area: function () {return Math.PI * this.radius * this.radius;},
+//        circumference: function () {return 2 * Math.PI * this.radius;}
+//    };
+//    var circle = function (r) {
+//        var circ = Object.create(protoCircle); //protoCircle assigned to prototype prop
+//        circ.radius = r;
+//        return circ;
+//    };
+//    /* Creates a circle with a given radius. */
+//    var c = circle(5);
+//    c.radius => 5
+//    c.area() => 25pi
+//    c.circumference() => 10pi
+//
+//    var protoCircle = {
+//        x: 1,
+//        area: function () {return Math.PI * this.radius * this.radius;},
+//        circumference: function () {return 2 * Math.PI * this.radius;}
+//    };
+//
+//
+//
+//    var joproto = {
+//        radius: 1,
+//        props:{k:9}
+//    };
+//        var circ = Object.create(joproto); //protoCircle assigned to prototype prop
+//        circ.props.k = 12;
+//
+// //        console.log(circ);
+//
+//
+//         var x = 5; // Initialize x
+//         var y; // Declare y
+//         elem = document.getElementById("demo");
+//         console.log(x + " " + y);
+//         y = 7; // Assign 7 to y
+//
+//
+//         function f(a, b) {
+//             console.log("test");
+//         }
+//
+//
+//         function apply(a, b, f,) {
+//             return a;
+//         }
+//
+//         var t=apply(f);
+//         t();
+//         function init() { //function declaration
+//             {
+//                      name : "Mozilla",
+//                      l :function d() {
+//                         alert(name);
+//                      }
+//             }
+//
+//         }
+//
+//
+//         var x = 1;
+//         function f() {
+//             var y = 2;
+//             var summ= function() {
+//                 var z = 3;
+//                 print(x + y + z);
+//             };
+//             y = 10;
+//             y=z;
+//             console.log(z);
+// ;           return summ;
+//         }
+//         f();
+//
+//
+
+var hh={
+        name : "wagdi",
+        x1:function () {
+            console.log(this);
+            function w(){
+             //   console.log(this);
+                function f() {
+               //     console.log(this);
+                }
+               // f();
+            }
+           // w();
+        }
+}
+// var k=hh.x1;
+// hh.x1();
+// k();
+//
+// var Person={
+//     name:'person',
+//     props:{
+//         age:17,
+//     }
+// };
+//
+// var Student=Object.create(Person);
+// Student.name="Medhat";
+//
+// var Instructor=Object.create(Person);
+//
+//
+//  console.log(Student.name);
+//  Student.props.hieght=187;
+//  console.log(Student.props);
+// Student.props="hesham";
+// console.log(Student.props);
+//
+// console.log(Instructor.props);
+//
+//
+//
+// window.onload=function(){
+//     function makeSizer(size) {
+//         return function() {
+//             alert(size);
+//             document.body.style.fontSize = size + 'px';
+//         };
+//     }
+//
+//
+//     var size12 = makeSizer(12);
+//     var size14 = makeSizer(14);
+//     var size16 = makeSizer(16);
+//     document.getElementById('size-12').onclick = size12;
+//     document.getElementById('size-14').onclick = size14;
+//     document.getElementById('size-16').onclick = size16;
+//
+//
+//
+//     function  d() {
+//         this.kk=2;
+//     }
+//
+//     var m=new d();
+//
+//     console.log(m);
+// }
+
+
+        function Counter() {
+            this.num = 0;
+            this.timer = setInterval(()=> {
+                this.num++;
+                console.log(this.num);
+            }, 1000);
+        }
+
+
+      var lll={};
+
+     var a= new Counter();
+
+     // d();
+
+
+</script>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body id="demo">
+
+<p>Some paragraph text</p>
+<h1>some heading 1 text</h1>
+<h2>some heading 2 text</h2>
+
+<a href="#" id="size-12">12</a>
+<a href="#" id="size-14">14</a>
+<a href="#" id="size-16">16</a>
+
+</body>
+</html>

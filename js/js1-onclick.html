@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<script type="text/javascript">
+    function test() {
+        alert('hello');
+    }
+
+    function searchKey() {
+
+        $.ajax({
+            "url" : "http://localhost:8777/OnlineDictionary-987171/Controller",
+            "type" : "GET",
+            "data" : {
+                "word" : 'A'
+            },
+            "success" : myAjaxSuccessFunction,
+            "error" : ajaxFailure
+        });
+
+        function myAjaxSuccessFunction(data) {
+            console.log(data);
+            $('#result').text = data;
+        }
+        function ajaxFailure(xhr, status, exception) {
+            console.log(xhr, status, exception);
+        }
+    }
+
+    searchKey();
+</script>
+
+<input type="submit" onclick="clickEvent()" value="Click Me"/>
+<label id="result"/>
+
+   <table border="1"
+  </body>
+</html>
